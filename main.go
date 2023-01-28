@@ -2,14 +2,10 @@ package main
 
 import "fmt"
 
-const PI float64 = 3.14 // global constant
-
 func main() {
-    var radius float64 = 5.154
-    var area float64
-
-    area = PI * radius * radius
-    fmt.Printf("Radius: %.2f \nPI:%.1f \n", radius, PI)
-    fmt.Printf("Area of Circle is : %f", area)
-    fmt.Println("Thank You")
+        var x, y int = 100,9
+        x /= y
+        fmt.Println(x)
+        x %= y
+        fmt.Println(x)
 }
