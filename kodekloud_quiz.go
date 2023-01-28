@@ -1,9 +1,10 @@
+/* 
 package main
 
 import "fmt"
 
 func main() {
-	
+
     var a,b int
 	fmt.Println("Enter the values for A & B")
 	fmt.Scan(&a,&b)
@@ -15,3 +16,4 @@ func main() {
 	}
 
 }
+*/
